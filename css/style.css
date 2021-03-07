@@ -6,9 +6,30 @@
 
 body {
     height: 100vh;
-    display: flex;
+    display: block;
     background-image: url("../img/background.gif");
     background-color: #cccccc;
+}
+
+.title {
+    height: 80px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.title_text {
+    margin-left: 20px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+.marvel_logo {
+    height: 60px;
+    width: 150px;
 }
 
 .memory_game {
